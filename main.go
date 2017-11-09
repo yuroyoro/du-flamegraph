@@ -15,7 +15,7 @@ import (
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "explain-du"
+	app.Name = "du-flamegraph"
 	app.Usage = "visualize disk usage as flamegraph"
 	app.ArgsUsage = "[FILE]"
 	app.HideHelp = true
